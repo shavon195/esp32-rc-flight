@@ -1,0 +1,23 @@
+# Wi-Fi passwords — never commit these
+secrets.h
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Game save data (high scores etc.)
+*.save
+highscores.json
+
+# Arduino / PlatformIO build output
+build/
+.pio/
+
+# Editors and OS clutter
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
